@@ -38,13 +38,13 @@ class CalculatorTest {
 
     @Test
     void divide() {
-        Assertions.assertEquals(3,calculator.subtract(8,5));
+        Assertions.assertEquals(3,calculator.divide(8,5));
         assertThrows(IllegalArgumentException.class,() -> calculator.divide(10,0));
     }
 
     @Test
     void multiply() {
-        Assertions.assertEquals(50,calculator.subtract(10,5));
+        Assertions.assertEquals(50,calculator.multiply(10,5));
 
     }
 //@AfterEach
